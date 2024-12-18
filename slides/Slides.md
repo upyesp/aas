@@ -1,7 +1,10 @@
 ---
 marp: true
-theme: custom-default
-footer: 'https://example.com'
+theme: gaia
+class:
+  - invert
+  - lead
+footer: 'https://aas.upyesp.org'
 ---
 
 # Using Markdown to Take Notes and Create Diagrams – helping the observer
