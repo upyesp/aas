@@ -35,7 +35,7 @@ footer: 'https://aas.upyesp.org'
 ## Slide icons
 
 <i class="fa fa-window-maximize"></i> Blog: [https://www.upyesp.org/](https://www.upyesp.org/)
-<i class="fa-brands fa-github"></i> GitHub: [[upyesp](https://github.com/upyesp)](https://github.com/upyesp)
+<i class="fa-brands fa-github"></i> GitHub: [https://github.com/upyesp](https://github.com/upyesp)
 <i class="fa-brands fa-mastodon"></i> Mastodon: @upyesp@fosstodon.org
 
 ---
