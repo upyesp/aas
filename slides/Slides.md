@@ -1,10 +1,7 @@
 ---
 marp: true
 theme: gaia
-class:
-  - invert
-  - lead
-Transition: fade
+transition: fade
 footer: 'https://aas.upyesp.org'
 ---
 
