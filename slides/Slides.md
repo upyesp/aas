@@ -4,7 +4,7 @@ theme: gaia
 class:
   - invert
   - lead
-transition: fade
+
 footer: 'https://aas.upyesp.org'
 ---
 
