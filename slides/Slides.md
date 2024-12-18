@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: default
-transition: fade
 footer: 'https://aas.upyesp.org'
 ---
 
