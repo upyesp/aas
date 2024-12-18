@@ -4,11 +4,13 @@ theme: gaia
 class:
   - invert
   - lead
-
+Transition: fade
 footer: 'https://aas.upyesp.org'
 ---
 
-# Using Markdown to Take Notes and Create Diagrams – helping the observer
+# Using Markdown to Take Notes and Create Diagrams
+
+## helping the observer
 
 ![bg right](https://picsum.photos/800/600)
 
@@ -16,9 +18,9 @@ footer: 'https://aas.upyesp.org'
 
 ## Slide 1
 
-- Item 1
-- Item 2
-- Item 3
+* Item 1
+* Item 2
+* Item 3
 
 ---
 
@@ -70,12 +72,9 @@ footer: 'https://aas.upyesp.org'
 
 ## Slide 6
 
-<i class="fa-brands fa-twitter"></i> Twitter: 
-<i class="fa-brands fa-mastodon"></i> Mastodon: 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa fa-window-maximize"></i> Blog: 
-<i class="fa-brands fa-github"></i> GitHub: 
-
+<i class="fa fa-window-maximize"></i> Blog: [https://www.upyesp.org/](https://www.upyesp.org/)
+<i class="fa-brands fa-github"></i> GitHub: [[upyesp](https://github.com/upyesp)](https://github.com/upyesp)
+<i class="fa-brands fa-mastodon"></i> Mastodon: @upyesp@fosstodon.org
 ---
 
 # <!--fit--> Large Text
