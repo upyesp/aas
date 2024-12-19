@@ -1,6 +1,10 @@
 ---
 marp: true
-theme: default
+theme: gaia
+class:
+  - invert
+  - lead
+transition: fade
 footer: 'https://aas.upyesp.org'
 ---
 
@@ -53,17 +57,23 @@ Hi there, hey there, ho there!
 ```
 ---
 
-## Slide 3
+# Diagrams
 
-> This is a quote.
-
----
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-# Mermaid
+<div class="mermaid">
+flowchart LR
+    Start --> Stop
+    Start --> Pause
+    Start --> Go
+</div>
+
+---
+
+# Charts
 
 <div class="mermaid">
 gantt
