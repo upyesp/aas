@@ -71,18 +71,14 @@ gantt
     dateFormat YYYY-MM-DD
     section Key Astronomical Events
         Quadrantids Meteor Shower    :active, ev1, 2025-01-03, 2d
-        Total Lunar Eclipse          :ev2, 2025-03-14, 1d
-        Venus at Greatest Brightness :ev3, 2025-03-26, 1d
-        Partial Solar Eclipse        :ev4, 2025-04-29, 1d
-    section Observation Opportunities
-        New Moon (Jan)               :milestone, nm1, 2025-01-29, 1d
-        Dark Skies (Feb)             :op1, 2025-02-05, 10d
-        Best Viewing for Venus       :op2, 2025-03-25, 3d
-        Lyrids Meteor Shower         :op3, 2025-04-22, 2d
+        Venus Good viewing           :ev2, 2025-01-10, 1d
+        Lunar Eclipse                :ev3, 2025-03-14, 1d
+        Partial Solar Eclipse        :ev4, 2025-03-29, 1d
+        Lyrids Meteor Shower         :ev6, 2025-04-22, 2d
     section Constraints
-        Full Moon (Jan)              :milestone, fm1, 2025-01-15, 1d
-        Full Moon (Feb)              :milestone, fm2, 2025-02-14, 1d
-        Full Moon (Mar)              :milestone, fm3, 2025-03-16, 1d
+        Full Moon (Jan)              :milestone, fm1, 2025-01-13, 1d
+        Full Moon (Feb)              :milestone, fm2, 2025-02-12, 1d
+        Full Moon (Mar)              :milestone, fm3, 2025-03-13, 1d
         Full Moon (Apr)              :milestone, fm3, 2025-04-13, 1d
 </div>
 
