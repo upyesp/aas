@@ -6,37 +6,58 @@ footer: 'https://aas.upyesp.org'
 
 # Using Markdown to Take Notes and Create Diagrams
 
-## helping the observer
+## Helping the Observer
 
 ![bg right](https://picsum.photos/800/600)
 
 ---
 
-## Slide 1
+## Making Notes Can Be a Challenge Sometimes
 
-* Item 1
-* Item 2
-* Item 3
+- Pen and paper, so nice, but hard to... share / search / edit / backup.
+- Proprietary software... learning curve / compatibility / restricted formats.
 
 ---
 
-## Slide 2
+## Why Use Markdown for Notes?
 
-![Image](https://picsum.photos/800/600)
+* **Simplicity**: Easy to learn, essentially plain text.
+* **Portability**: Works on any platform.
+* **Flexibility**: Convert to various formats (PDF, Word, epub...).
+
+---
+
+## Example
+
+```markdown
+# This is a Level 1 Heading
+
+This is plan text. Here is a word in **bold**. An example of *italic*.
+
+## A Level 2 Heading
+Some text here with a link to [this site](https://example.com).
+
+### A Level 3 Heading
+
+Numbered lists are supported:
+
+1. this is the first item
+1. here's the second
+1. and the third
+
+Tables are also supported:
+
+| Animal | Sound |
+|--------|-------|
+| Dog    | woof  |
+| Cow    | moo   |
+```
 
 ---
 
 ## Slide 3
 
 > This is a quote.
-
----
-
-## Slide icons
-
-<i class="fa fa-window-maximize"></i> Blog: [https://www.upyesp.org](https://www.upyesp.org)
-<i class="fa-brands fa-github"></i> GitHub: [https://github.com/upyesp](https://github.com/upyesp)
-<i class="fa-brands fa-mastodon"></i> Mastodon: [https://fosstodon.org/@upyesp](https://fosstodon.org/@upyesp)
 
 ---
 
