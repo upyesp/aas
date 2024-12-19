@@ -12,7 +12,7 @@ footer: 'https://aas.upyesp.org'
 
 ## Helping the Observer
 
-![bg right](https://picsum.photos/800/600)
+![bg right:35%](./img/background.png)
 
 ---
 
@@ -54,8 +54,6 @@ Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 ```
 
 ---
-
-## Produces This Layout
 
 ![bg](./img/example.png)
 
