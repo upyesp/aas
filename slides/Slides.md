@@ -75,6 +75,7 @@ gantt
         Venus at Greatest Brightness :ev3, 2025-03-26, 1d
         Partial Solar Eclipse        :ev4, 2025-04-29, 1d
     section Observation Opportunities
+        New Moon (Jan)               :milestone, nm1, 2025-01-29, 1d
 </div>
 
 ---
