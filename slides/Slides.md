@@ -106,10 +106,10 @@ Hi there, hey there, ho there!
 
 <div class="mermaid">
 ```mermaid
-gantt
-    title Astronomical Events and Observations Plan (Jan-Apr 2025)
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
-
 </div>
