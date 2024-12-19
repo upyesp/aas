@@ -57,7 +57,7 @@ Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 
 ## Produces This Layout
 
-![bg](example.png)
+![bg](./img/example.png)
 
 ---
 
