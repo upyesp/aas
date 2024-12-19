@@ -18,16 +18,16 @@ footer: 'https://aas.upyesp.org'
 
 ## Making Notes Can Be a Challenge Sometimes
 
-- Pen and paper, so nice, but hard to... share / search / edit / backup.
+- Pen and paper, super nice, but hard to... search / edit / backup / share.
 - Proprietary software... learning curve / compatibility / restricted formats.
 
 ---
 
 ## Why Use Markdown for Notes?
 
-* **Simplicity**: Easy to learn, essentially plain text.
+* **Simplicity**: Easy to learn, it is essentially plain text.
 * **Portability**: Works on any platform.
-* **Flexibility**: Convert to various formats (PDF, Word, epub...).
+* **Flexibility**: Convert to many formats (PDF, Word, epub...).
 
 ---
 
@@ -55,7 +55,7 @@ Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 
 ---
 
-![bg](./img/example.png)
+![bg:80%](./img/example.png)
 
 ---
 
@@ -84,10 +84,6 @@ flowchart
     A --> D
 ```
 
----
-
-## Create Diagrams From Text
-
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
@@ -99,6 +95,24 @@ flowchart
     A --> C
     A --> D
 </div>
+
+---
+
+
+```text
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
+
+<div class="mermaid">
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+</div>
+
 
 ---
 
@@ -137,7 +151,7 @@ The same Markdown file can be used to generate different outputs:
 
 ## Getting Started
 
-1. Install a Markdown editor. Notepad, VS Code, Obsidian
+1. Install a Markdown editor: Notepad, VS Code, Obsidian.
 2. Learn the basics of Markdown.
 3. Add maths, tables, diagrams, charts.
-4. Export to your notes desired to desired format(s).
+4. Export to your notes to desired format(s).
