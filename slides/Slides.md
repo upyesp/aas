@@ -66,8 +66,8 @@ Hi there, hey there, ho there!
 # Mermaid
 
 <div class="mermaid">
-gantt
-    title A Gantt Diagram
+gantt;
+    title A Gantt Diagram;
 </div>
 
 ---
