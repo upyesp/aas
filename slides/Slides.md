@@ -76,6 +76,9 @@ gantt
         Partial Solar Eclipse        :ev4, 2025-04-29, 1d
     section Observation Opportunities
         New Moon (Jan)               :milestone, nm1, 2025-01-29, 1d
+        Dark Skies (Feb)             :op1, 2025-02-05, 10d
+        Best Viewing for Venus       :op2, 2025-03-25, 3d
+        Lyrids Meteor Shower         :op3, 2025-04-22, 2d
 </div>
 
 ---
