@@ -74,6 +74,7 @@ gantt
         Total Lunar Eclipse          :ev2, 2025-03-14, 1d
         Venus at Greatest Brightness :ev3, 2025-03-26, 1d
         Partial Solar Eclipse        :ev4, 2025-04-29, 1d
+    section Observation Opportunities
 </div>
 
 ---
