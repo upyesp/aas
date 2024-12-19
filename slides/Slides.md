@@ -52,6 +52,13 @@ ex ea commodo consequat.
 ## Another Level 2 Heading
 Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 ```
+
+---
+
+## Produces This Layout
+
+![bg](example.png)
+
 ---
 
 # Diagrams
@@ -62,14 +69,14 @@ Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 </script>
 
 ```text
-flowchart LR
+flowchart 
     Start --> Stop
     Start --> Pause
     Start --> Go
 ```
 
 <div class="mermaid">
-flowchart LR
+flowchart 
     Start --> Stop
     Start --> Pause
     Start --> Go
@@ -95,41 +102,3 @@ gantt
         Full Moon (Mar)              :milestone, fm3, 2025-03-13, 1d
         Full Moon (Apr)              :milestone, fm3, 2025-04-13, 1d
 </div>
-
----
-## Slide 4
-
-| Column 1 | Column 2 |
-| -------- | -------- |
-| Item 1   | Item 2   |
-| Item 3   | Item 4   |
-
----
-
-![bg opacity](https://picsum.photos/800/600?image=53)
-
-## Slide 5
-
-<div class="columns">
-<div>
-
-## Left
-
-- 1
-- 2
-
-</div>
-<div>
-
-## Right
-
-- 3
-- 4
-
-</div>
-</div>
-
----
-
-# <!--fit--> Large Text
-
