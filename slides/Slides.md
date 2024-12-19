@@ -67,9 +67,10 @@ Hi there, hey there, ho there!
 
 <div class="mermaid">
 gantt
-    title A Gantt Diagram
+    title Astronomical Events and Observations Plan (Jan-Apr 2025)
     dateFormat YYYY-MM-DD
-    section Section
+    section Key Astronomical Events
+        Quadrantids Meteor Shower    :active, ev1, 2025-01-03, 2d
         A task          :a1, 2014-01-01, 30d
         Another task    :after a1, 20d
     section Another
