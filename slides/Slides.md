@@ -80,7 +80,10 @@ gantt
         Best Viewing for Venus       :op2, 2025-03-25, 3d
         Lyrids Meteor Shower         :op3, 2025-04-22, 2d
     section Constraints
-        Full Moon (Jan)              :constraint, fm1, 2025-01-15, 1d
+        Full Moon (Jan)              :milestone, fm1, 2025-01-15, 1d
+        Full Moon (Feb)              :milestone, fm2, 2025-02-14, 1d
+        Full Moon (Mar)              :milestone, fm3, 2025-03-16, 1d
+        Full Moon (Apr)              :milestone, fm3, 2025-04-13, 1d
 </div>
 
 ---
