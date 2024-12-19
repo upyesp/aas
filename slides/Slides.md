@@ -46,16 +46,10 @@ nostrud exercitation ullamco laboris nisi ut aliquip
 ex ea commodo consequat.
 
 ## Another Level 2 Heading
-Some text here, also a link [Andover Astronomical Society](https://andoverastronomy.org.uk/).
+Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 
 ### Here's A Level 3 Heading
-Numbered lists are supported:
-
-1. this is the first item
-1. here's the second
-1. and the third
-
-Some more text.
+Hi there, hey there, ho there!
 ```
 ---
 
@@ -113,7 +107,7 @@ Some more text.
 <div class="mermaid">
 ```mermaid
 gantt
-    title Astronomical Events and Observations Plan (Jan-Apr 2025);
+    title Astronomical Events and Observations Plan (Jan-Apr 2025)
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
 ```
