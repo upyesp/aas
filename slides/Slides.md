@@ -105,11 +105,9 @@ Hi there, hey there, ho there!
 # Mermaid
 
 <div class="mermaid">
-```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-```
 </div>
