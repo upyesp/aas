@@ -12,7 +12,7 @@ footer: 'https://aas.upyesp.org'
 
 ## Helping the Observer
 
-![bg right:35%](./img/background.png)
+![bg right:35%](./img/background.jpeg)
 
 ---
 
@@ -59,22 +59,26 @@ Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 
 ---
 
-# Diagrams
+## Diagrams, From Text
+
+```text
+flowchart
+    Start --> Stop
+    Start --> Pause
+    Start --> Go
+```
+
+---
+
+## Diagrams, From Text
 
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-```text
-flowchart 
-    Start --> Stop
-    Start --> Pause
-    Start --> Go
-```
-
 <div class="mermaid">
-flowchart 
+flowchart
     Start --> Stop
     Start --> Pause
     Start --> Go
@@ -82,7 +86,7 @@ flowchart
 
 ---
 
-# Charts
+## Charts
 
 <div class="mermaid">
 gantt
@@ -100,3 +104,15 @@ gantt
         Full Moon (Mar)              :milestone, fm3, 2025-03-13, 1d
         Full Moon (Apr)              :milestone, fm3, 2025-04-13, 1d
 </div>
+
+---
+
+## One Source, Many Outputs
+
+The same Markdown file can be used to generate different outputs:
+
+* PDF
+* Word
+* Presentation
+* Website
+* E-book
