@@ -30,14 +30,25 @@ footer: 'https://aas.upyesp.org'
 ## Example
 
 ```markdown
+Markdown is essentially plan text, like this.
+
+Your focus on what you want to write.
+
+Later, add some formatting, but only if you want.
+
 # This is a Level 1 Heading
 
-This is plan text. Here is a word in **bold**. An example of *italic*.
+ Here is a word in **bold**. An example of *italic*.
 
 ## A Level 2 Heading
-Some text here with a link to [this site](https://example.com).
 
-### A Level 3 Heading
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Another Level 2 Heading
+
+Some text here, also a link [Andover Astronomical Society](https://andoverastronomy.org.uk/).
+
+### Here's A Level 3 Heading
 
 Numbered lists are supported:
 
@@ -45,12 +56,7 @@ Numbered lists are supported:
 1. here's the second
 1. and the third
 
-Tables are also supported:
-
-| Animal | Sound |
-|--------|-------|
-| Dog    | woof  |
-| Cow    | moo   |
+Some more text.
 ```
 
 ---
@@ -107,9 +113,28 @@ Tables are also supported:
 # Mermaid
 
 <div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+```mermaid
+gantt;
+    title Astronomical Events and Observations Plan (Jan-Apr 2025);
+    dateFormat  YYYY-MM-DD;
+    axisFormat  %b %d;
+
+    section Key Astronomical Events;
+    Quadrantids Meteor Shower    :active, ev1, 2025-01-03, 2d;
+    Total Lunar Eclipse          :ev2, 2025-03-14, 1d;
+    Venus at Greatest Brightness :ev3, 2025-03-26, 1d;
+    Partial Solar Eclipse        :ev4, 2025-04-29, 1d;
+
+    section Observation Opportunities;
+    New Moon (Jan)               :milestone, nm1, 2025-01-29, 1d;
+    Dark Skies (Feb)             :op1, 2025-02-05, 10d;
+    Best Viewing for Venus       :op2, 2025-03-25, 3d;
+    Lyrids Meteor Shower         :op3, 2025-04-22, 2d;
+
+    section Constraints;
+    Full Moon (Jan)              :constraint, fm1, 2025-01-15, 1d;
+    Bright Moon (Feb)            :constraint, fm2, 2025-02-14, 5d;
+    Cloudy Season (Approximate)  :constraint, cs1, 2025-02-20, 20d;
+    Full Moon (Apr)              :constraint, fm3, 2025-04-13, 1d;
+
 </div>
