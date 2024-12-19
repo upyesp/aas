@@ -74,16 +74,6 @@ gantt
         Total Lunar Eclipse          :ev2, 2025-03-14, 1d
         Venus at Greatest Brightness :ev3, 2025-03-26, 1d
         Partial Solar Eclipse        :ev4, 2025-04-29, 1d
-    section Observation Opportunities
-        New Moon (Jan)               :milestone, nm1, 2025-01-29, 1d
-        Dark Skies (Feb)             :op1, 2025-02-05, 10d
-        Best Viewing for Venus       :op2, 2025-03-25, 3d
-        Lyrids Meteor Shower         :op3, 2025-04-22, 2d
-    section Constraints
-        Full Moon (Jan)              :constraint, fm1, 2025-01-15, 1d
-        Bright Moon (Feb)            :constraint, fm2, 2025-02-14, 5d
-        Cloudy Season (Approximate)  :constraint, cs1, 2025-02-20, 20d
-        Full Moon (Apr)              :constraint, fm3, 2025-04-13, 1d
 </div>
 
 ---
