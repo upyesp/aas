@@ -132,3 +132,12 @@ The same Markdown file can be used to generate different outputs:
 * Presentation
 * Website
 * E-book
+
+---
+
+## Getting Started
+
+1. Install a Markdown editor. Notepad, VS Code, Obsidian
+2. Learn the basics of Markdown.
+3. Add maths, tables, diagrams, charts.
+4. Export to your notes desired to desired format(s).
