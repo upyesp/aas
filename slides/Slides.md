@@ -59,18 +59,34 @@ Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
 
 ---
 
-## Diagrams, From Text
+## Include $\LaTeX$ Notation
+
+```latex
+$$
+\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
+$$
+```
+
+Produces:
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
+$$
+
+---
+
+## Create Diagrams From Text
 
 ```text
 flowchart
-    Start --> Stop
-    Start --> Pause
-    Start --> Go
+    A --> B
+    A --> C
+    A --> D
 ```
 
 ---
 
-## Diagrams, From Text
+## Create Diagrams From Text
 
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
@@ -79,9 +95,9 @@ flowchart
 
 <div class="mermaid">
 flowchart
-    Start --> Stop
-    Start --> Pause
-    Start --> Go
+    A --> B
+    A --> C
+    A --> D
 </div>
 
 ---
