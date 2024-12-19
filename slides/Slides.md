@@ -28,7 +28,6 @@ footer: 'https://aas.upyesp.org'
 ---
 
 ## Example
-
 ```markdown
 Markdown is essentially plan text, like this.
 
@@ -37,24 +36,19 @@ Your focus on what you want to write.
 Later, add some formatting, but only if you want.
 
 # This is a Level 1 Heading
-
- Here is a word in **bold**. An example of *italic*.
+Here is a word in **bold**. An example of *italic*.
 
 ## A Level 2 Heading
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
- irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-   officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat.
 
 ## Another Level 2 Heading
-
 Some text here, also a link [Andover Astronomical Society](https://andoverastronomy.org.uk/).
 
 ### Here's A Level 3 Heading
-
 Numbered lists are supported:
 
 1. this is the first item
@@ -63,7 +57,6 @@ Numbered lists are supported:
 
 Some more text.
 ```
-
 ---
 
 ## Slide 3
@@ -123,6 +116,6 @@ gantt
     title Astronomical Events and Observations Plan (Jan-Apr 2025);
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
-
+```
 
 </div>
