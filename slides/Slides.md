@@ -79,6 +79,8 @@ gantt
         Dark Skies (Feb)             :op1, 2025-02-05, 10d
         Best Viewing for Venus       :op2, 2025-03-25, 3d
         Lyrids Meteor Shower         :op3, 2025-04-22, 2d
+    section Constraints
+        Full Moon (Jan)              :constraint, fm1, 2025-01-15, 1d
 </div>
 
 ---
