@@ -4,7 +4,7 @@ theme: default
 footer: 'https://aas.upyesp.org'
 ---
 
-# Using Markdown to Take Notes and Create Diagrams
+# Using Markdown to Make Notes and Create Diagrams
 
 ## Helping the Observer
 
@@ -28,7 +28,7 @@ footer: 'https://aas.upyesp.org'
 ---
 
 ## Example
-```markdown
+```text
 Markdown is essentially plan text, like this.
 
 Your focus on what you want to write.
@@ -67,28 +67,14 @@ Hi there, hey there, ho there!
 
 <div class="mermaid">
 gantt
-    title Astronomical Events and Observations Plan (Jan-Apr 2025)
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
-
-    section Key Astronomical Events
-    Quadrantids Meteor Shower    :active, ev1, 2025-01-03, 2d
-    Total Lunar Eclipse          :ev2, 2025-03-14, 1d
-    Venus at Greatest Brightness :ev3, 2025-03-26, 1d
-    Partial Solar Eclipse        :ev4, 2025-04-29, 1d
-
-    section Observation Opportunities
-    New Moon (Jan)               :milestone, nm1, 2025-01-29, 1d
-    Dark Skies (Feb)             :op1, 2025-02-05, 10d
-    Best Viewing for Venus       :op2, 2025-03-25, 3d
-    Lyrids Meteor Shower         :op3, 2025-04-22, 2d
-
-    section Constraints
-    Full Moon (Jan)              :constraint, fm1, 2025-01-15, 1d
-    Bright Moon (Feb)            :constraint, fm2, 2025-02-14, 5d
-    Cloudy Season (Approximate)  :constraint, cs1, 2025-02-20, 20d
-    Full Moon (Apr)              :constraint, fm3, 2025-04-13, 1d
-
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
 </div>
 
 ---
