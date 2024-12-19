@@ -64,20 +64,12 @@ Hi there, hey there, ho there!
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-<div class="columns">
-
-<div>
-## Left
-```
+```text
 flowchart LR
     Start --> Stop
     Start --> Pause
     Start --> Go
 ```
-</div>
-
-<div>
-## Right
 
 <div class="mermaid">
 flowchart LR
@@ -85,11 +77,6 @@ flowchart LR
     Start --> Pause
     Start --> Go
 </div>
-
-</div>
-</div>
-
-
 
 ---
 
