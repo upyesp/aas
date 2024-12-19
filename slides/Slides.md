@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia
+theme: default
 class:
   - invert
   - lead
@@ -51,9 +51,6 @@ ex ea commodo consequat.
 
 ## Another Level 2 Heading
 Some text here, also a link [AAS](https://andoverastronomy.org.uk/).
-
-### Here's A Level 3 Heading
-Hi there, hey there, ho there!
 ```
 ---
 
