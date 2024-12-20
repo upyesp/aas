@@ -73,11 +73,6 @@ $$
 
 ## Create Diagrams From Text
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
 ```text
 flowchart TD
     A[Start] --> B{Is it?}
@@ -86,6 +81,13 @@ flowchart TD
     D --> B
     B -- No ----> E[End]
 ```
+
+---
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
 
 <div class="mermaid">
 flowchart TD
