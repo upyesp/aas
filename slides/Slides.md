@@ -79,19 +79,19 @@ $$
 </script>
 
 <div class="mermaid">
-graph TD
-    A[Start] --> B[Select a stable location<BR>]
-    B --> C[Set up the tripod and level it<BR>]
-    C --> D[Attach the equatorial mount and telescope<BR>]
-    D --> E[Is the mount aligned to the North Celestial Pole?<BR>]
-    E -- Yes --> F[Balance the telescope<BR>]
-    E -- No --> G[Use a compass and adjust the mount<BR>]
+graph LR
+    A[Start] --> B[Select a stable location]
+    B --> C[Set up the tripod and level it]
+    C --> D[Attach the equatorial mount and telescope]
+    D --> E[Is the mount aligned to the North Celestial Pole?]
+    E -- Yes --> F[Balance the telescope]
+    E -- No --> G[Use a compass and adjust the mount]
     G --> F
-    F --> H[Align the finder scope<BR>]
-    H --> I[Set up observing accessories<BR>]
-    I --> J[Begin polar alignment<BR>]
-    J --> K[Final check and start observing<BR>]
-    K --> L[Enjoy your night of stargazing!<BR>]
+    F --> H[Align the finder scope]
+    H --> I[Set up observing accessories]
+    I --> J[Begin polar alignment]
+    J --> K[Final check and start observing]
+    K --> L[Enjoy your night of stargazing!]
 </div>
 
 ---
