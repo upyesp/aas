@@ -114,20 +114,30 @@ pie title Pets adopted by volunteers
 ## Charts
 
 ```text
+```mermaid
 gantt
-    title Astronomical Events and Observations Plan (Jan-Apr 2025)
-    dateFormat YYYY-MM-DD
-    section Key Astronomical Events
-        Quadrantids Meteor Shower    :active, ev1, 2025-01-03, 2d
-        Venus Good viewing           :ev2, 2025-01-10, 1d
-        Lunar Eclipse                :ev3, 2025-03-14, 1d
-        Partial Solar Eclipse        :ev4, 2025-03-29, 1d
-        Lyrids Meteor Shower         :ev6, 2025-04-22, 2d
-    section Constraints
-        Full Moon (Jan)              :milestone, fm1, 2025-01-13, 1d
-        Full Moon (Feb)              :milestone, fm2, 2025-02-12, 1d
-        Full Moon (Mar)              :milestone, fm3, 2025-03-13, 1d
-        Full Moon (Apr)              :milestone, fm3, 2025-04-13, 1d
+    title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
+    dateFormat  YYYY-MM-DD
+    excludes    2024-12-13, 2024-12-14, 2024-12-15, 2024-12-16, 2024-12-17,
+                2025-01-11, 2025-01-12, 2025-01-13, 2025-01-14, 2025-01-15,
+                2025-02-10, 2025-02-11, 2025-02-12, 2025-02-13, 2025-02-14,
+                2025-03-12, 2025-03-13, 2025-03-14, 2025-03-15, 2025-03-16,
+                2025-04-11, 2025-04-12, 2025-04-13, 2025-04-14, 2025-04-15
+    section Meteor Showers
+    Geminids Peak          :ms1, 2024-12-13, 2d
+    Ursids Peak            :ms2, 2024-12-22, 2d
+    Quadrantids Peak       :ms3, 2025-01-04, 1d
+    Lyrids Peak            :ms4, 2025-04-22, 2d
+    
+    section Planetary Events
+    Jupiter at Opposition  :pe1, 2024-12-07, 1d
+    Mars at Opposition     :pe2, 2025-01-16, 1d
+    Planetary Alignment    :pe3, 2025-02-28, 1d
+    
+    section Eclipses and Solstices
+    December Solstice      :solstice, 2024-12-21, 1d
+    Total Lunar Eclipse    :eclipse, 2025-03-14, 1d
+    March Equinox          :equinox, 2025-03-20, 1d
 ```
 
 ---
@@ -135,20 +145,31 @@ gantt
 ## Charts
 
 <div class="mermaid">
+```mermaid
 gantt
-    title Astronomical Events and Observations Plan (Jan-Apr 2025)
-    dateFormat YYYY-MM-DD
-    section Key Astronomical Events
-        Quadrantids Meteor Shower    :active, ev1, 2025-01-03, 2d
-        Venus Good viewing           :ev2, 2025-01-10, 1d
-        Lunar Eclipse                :ev3, 2025-03-14, 1d
-        Partial Solar Eclipse        :ev4, 2025-03-29, 1d
-        Lyrids Meteor Shower         :ev6, 2025-04-22, 2d
-    section Constraints
-        Full Moon (Jan)              :milestone, fm1, 2025-01-13, 1d
-        Full Moon (Feb)              :milestone, fm2, 2025-02-12, 1d
-        Full Moon (Mar)              :milestone, fm3, 2025-03-13, 1d
-        Full Moon (Apr)              :milestone, fm3, 2025-04-13, 1d
+    title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
+    dateFormat  YYYY-MM-DD
+    excludes    2024-12-13, 2024-12-14, 2024-12-15, 2024-12-16, 2024-12-17,
+                2025-01-11, 2025-01-12, 2025-01-13, 2025-01-14, 2025-01-15,
+                2025-02-10, 2025-02-11, 2025-02-12, 2025-02-13, 2025-02-14,
+                2025-03-12, 2025-03-13, 2025-03-14, 2025-03-15, 2025-03-16,
+                2025-04-11, 2025-04-12, 2025-04-13, 2025-04-14, 2025-04-15
+    section Meteor Showers
+    Geminids Peak          :ms1, 2024-12-13, 2d
+    Ursids Peak            :ms2, 2024-12-22, 2d
+    Quadrantids Peak       :ms3, 2025-01-04, 1d
+    Lyrids Peak            :ms4, 2025-04-22, 2d
+    
+    section Planetary Events
+    Jupiter at Opposition  :pe1, 2024-12-07, 1d
+    Mars at Opposition     :pe2, 2025-01-16, 1d
+    Planetary Alignment    :pe3, 2025-02-28, 1d
+    
+    section Eclipses and Solstices
+    December Solstice      :solstice, 2024-12-21, 1d
+    Total Lunar Eclipse    :eclipse, 2025-03-14, 1d
+    March Equinox          :equinox, 2025-03-20, 1d
+
 </div>
 
 ---
