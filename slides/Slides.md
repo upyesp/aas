@@ -80,7 +80,6 @@ $$
 
 <div class="mermaid">
 graph TD
-    A[Start] --> B[Select a stable location]
     B --> C[Set up the tripod and attach the mount]
     C --> D[Is the mount aligned to the North Celestial Pole?]
     D -- Yes --> E[Balance the telescope]
@@ -89,11 +88,9 @@ graph TD
     E --> G[Set up observing accessories]
     G --> H[Perform polar alignment]
     H --> I[Final check and start observing]
-    I --> J[Enjoy your night of stargazing!]
 </div>
 
 ---
-
 
 ```text
 pie title Pets adopted by volunteers
