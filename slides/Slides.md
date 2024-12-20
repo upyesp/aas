@@ -115,14 +115,17 @@ pie title Pets adopted by volunteers
 
 ```text
 ```mermaid
+```mermaid
 gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
     dateFormat  YYYY-MM-DD
-    excludes    2024-12-13, 2024-12-14, 2024-12-15, 2024-12-16, 2024-12-17,
-                2025-01-11, 2025-01-12, 2025-01-13, 2025-01-14, 2025-01-15,
-                2025-02-10, 2025-02-11, 2025-02-12, 2025-02-13, 2025-02-14,
-                2025-03-12, 2025-03-13, 2025-03-14, 2025-03-15, 2025-03-16,
-                2025-04-11, 2025-04-12, 2025-04-13, 2025-04-14, 2025-04-15
+    section Full Moon Periods
+    Cold Moon Block        :blocked1, 2024-12-13, 5d
+    Wolf Moon Block        :blocked2, 2025-01-11, 5d
+    Snow Moon Block        :blocked3, 2025-02-10, 5d
+    Worm Moon Block        :blocked4, 2025-03-12, 5d
+    Pink Moon Block        :blocked5, 2025-04-11, 5d
+    
     section Meteor Showers
     Geminids Peak          :ms1, 2024-12-13, 2d
     Ursids Peak            :ms2, 2024-12-22, 2d
@@ -146,14 +149,17 @@ gantt
 
 <div class="mermaid">
 ```mermaid
+```mermaid
 gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
     dateFormat  YYYY-MM-DD
-    excludes    2024-12-13, 2024-12-14, 2024-12-15, 2024-12-16, 2024-12-17,
-                2025-01-11, 2025-01-12, 2025-01-13, 2025-01-14, 2025-01-15,
-                2025-02-10, 2025-02-11, 2025-02-12, 2025-02-13, 2025-02-14,
-                2025-03-12, 2025-03-13, 2025-03-14, 2025-03-15, 2025-03-16,
-                2025-04-11, 2025-04-12, 2025-04-13, 2025-04-14, 2025-04-15
+    section Full Moon Periods
+    Cold Moon Block        :blocked1, 2024-12-13, 5d
+    Wolf Moon Block        :blocked2, 2025-01-11, 5d
+    Snow Moon Block        :blocked3, 2025-02-10, 5d
+    Worm Moon Block        :blocked4, 2025-03-12, 5d
+    Pink Moon Block        :blocked5, 2025-04-11, 5d
+    
     section Meteor Showers
     Geminids Peak          :ms1, 2024-12-13, 2d
     Ursids Peak            :ms2, 2024-12-22, 2d
@@ -169,7 +175,6 @@ gantt
     December Solstice      :solstice, 2024-12-21, 1d
     Total Lunar Eclipse    :eclipse, 2025-03-14, 1d
     March Equinox          :equinox, 2025-03-20, 1d
-
 </div>
 
 ---
