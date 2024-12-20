@@ -86,10 +86,19 @@ flowchart
 </script>
 
 <div class="mermaid">
-flowchart
-    A --> B
-    A --> C
-    A --> D
+graph TD
+    A[Start] --> B[Select a stable location]
+    B --> C[Set up the tripod and level it]
+    C --> D[Attach the equatorial mount and telescope]
+    D --> E[Is the mount aligned to the North Celestial Pole?]
+    E -- Yes --> F[Balance the telescope]
+    E -- No --> G[Use a compass and adjust the mount]
+    G --> F
+    F --> H[Align the finder scope]
+    H --> I[Set up observing accessories]
+    I --> J[Begin polar alignment]
+    J --> K[Final check and start observing]
+    K --> L[Enjoy your night of stargazing!]
 </div>
 
 ---
@@ -151,6 +160,10 @@ gantt
     dateFormat  YYYY-MM-DD
     section Full Moon Periods
       Cold Moon Block        :blocked1, 2024-12-13, 5d
+      Wolf Moon Block        :blocked2, 2025-01-11, 5d
+      Snow Moon Block        :blocked3, 2025-02-10, 5d
+      Worm Moon Block        :blocked4, 2025-03-12, 5d
+      Pink Moon Block        :blocked5, 2025-04-11, 5d
 </div>
 
 ---
