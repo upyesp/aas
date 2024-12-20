@@ -114,8 +114,6 @@ pie title Pets adopted by volunteers
 ## Charts
 
 ```text
-```mermaid
-```mermaid
 gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
     dateFormat  YYYY-MM-DD
@@ -148,8 +146,6 @@ gantt
 ## Charts
 
 <div class="mermaid">
-```mermaid
-```mermaid
 gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
     dateFormat  YYYY-MM-DD
