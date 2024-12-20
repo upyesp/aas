@@ -121,7 +121,7 @@ pie title Pets adopted by volunteers
 ```text
 gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
-    dateFormat  YYYY-MM-DD
+    dateFormat  YYMMDD
     section Full Moon Periods
         Cold Moon Block        :blocked1, 2024-12-13, 5d
         Wolf Moon Block        :blocked2, 2025-01-11, 5d
