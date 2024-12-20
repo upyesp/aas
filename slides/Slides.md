@@ -78,16 +78,22 @@ $$
   mermaid.initialize({ startOnLoad: true });
 </script>
 
+```text
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -- Yes --> C[OK]
+    C --> D[Rethink]
+    D --> B
+    B -- No ----> E[End]
+```
+
 <div class="mermaid">
-graph TD
-    C[Set up the tripod and attach the mount]
-    C --> D[Is the mount aligned to the North Celestial Pole?]
-    D -- Yes --> E[Balance the telescope]
-    D -- No --> F[Adjust mount using a compass]
-    F --> E
-    E --> G[Set up observing accessories]
-    G --> H[Perform polar alignment]
-    H --> I[Final check and start observing]
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -- Yes --> C[OK]
+    C --> D[Rethink]
+    D --> B
+    B -- No ----> E[End]
 </div>
 
 ---
