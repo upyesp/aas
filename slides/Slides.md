@@ -73,21 +73,14 @@ $$
 
 ## Create Diagrams From Text
 
-```text
-flowchart
-    A --> B
-    A --> C
-    A --> D
-```
-
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
+  classDef default line-height:1.5,text-align:left;
 </script>
 
 <div class="mermaid">
 graph TD
-    classDef default line-height:1.5,text-align:left;
     A[Start] --> B[Select a stable location]
     B --> C[Set up the tripod and level it]
     C --> D[Attach the equatorial mount and telescope]
