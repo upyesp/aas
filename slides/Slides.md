@@ -80,7 +80,7 @@ $$
 
 <div class="mermaid">
 graph TD
-    B --> C[Set up the tripod and attach the mount]
+    C[Set up the tripod and attach the mount]
     C --> D[Is the mount aligned to the North Celestial Pole?]
     D -- Yes --> E[Balance the telescope]
     D -- No --> F[Adjust mount using a compass]
