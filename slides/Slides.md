@@ -150,6 +150,7 @@ gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
     dateFormat  YYYY-MM-DD
     section Full Moon Periods
+      Cold Moon Block        :blocked1, 2024-12-13, 5d
 </div>
 
 ---
