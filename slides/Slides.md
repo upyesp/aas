@@ -150,27 +150,6 @@ gantt
     title Astronomical Events and Full Moon Dates (Dec 2024 - Apr 2025)
     dateFormat  YYYY-MM-DD
     section Full Moon Periods
-        Cold Moon Block        :blocked1, 2024-12-13, 5d
-        Wolf Moon Block        :blocked2, 2025-01-11, 5d
-        Snow Moon Block        :blocked3, 2025-02-10, 5d
-        Worm Moon Block        :blocked4, 2025-03-12, 5d
-        Pink Moon Block        :blocked5, 2025-04-11, 5d
-    
-    section Meteor Showers
-        Geminids Peak          :ms1, 2024-12-13, 2d
-        Ursids Peak            :ms2, 2024-12-22, 2d
-        Quadrantids Peak       :ms3, 2025-01-04, 1d
-        Lyrids Peak            :ms4, 2025-04-22, 2d
-    
-    section Planetary Events
-        Jupiter at Opposition  :pe1, 2024-12-07, 1d
-        Mars at Opposition     :pe2, 2025-01-16, 1d
-        Planetary Alignment    :pe3, 2025-02-28, 1d
-    
-    section Eclipses and Solstices
-        December Solstice      :solstice, 2024-12-21, 1d
-        Total Lunar Eclipse    :eclipse, 2025-03-14, 1d
-        March Equinox          :equinox, 2025-03-20, 1d
 </div>
 
 ---
