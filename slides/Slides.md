@@ -38,7 +38,7 @@ Markdown is essentially plain text, like this.
 You focus on what you want to write.
 Later, add some formatting, but only if you want.
 
-Here is a word in **bold**. An example of *italic*.
+Here is a word in **bold** and an example of *italic*.
 
 ## A Level 2 Heading
 Lorem ipsum dolor sit amet, consectetur adipiscing
